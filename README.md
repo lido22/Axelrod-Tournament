@@ -15,7 +15,7 @@ Ensure you have Python installed, then clone the repository and install dependen
 
 ```sh
 git clone https://github.com/lido22/Axelrod-Tournament.git
-cd axelrod-tournament
+cd Axelrod-Tournament
 pip install -r requirements.txt
 ```
 
