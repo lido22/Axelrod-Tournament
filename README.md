@@ -61,6 +61,7 @@ This script will:
 ## Visualizing Results
 
 After running the tournament, a plot will appear displaying the scores of all participating strategies.
+![Tournament Results](results.png)
 
 ## Example Strategies
 
