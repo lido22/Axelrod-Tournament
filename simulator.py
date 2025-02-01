@@ -40,12 +40,12 @@ def load_agents():
                 print(f"Function '{function_name}' not found in module '{module_name}'")
 
 
-def play_game(number_of_rounds:int = 100):
+def play_game(number_of_rounds:int = 200):
     global scores
     global functions
     global agents
     for i in range(len(agents)):
-        for j in range(i+1, len(agents)):
+        for j in range(0, len(agents)):
             first_agent_name = agents[i]
             second_agent_name = agents[j]
             first_agent_history = []
