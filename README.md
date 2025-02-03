@@ -1,7 +1,7 @@
 # Axelrod-Tournament
 
 
-This project recreates the famous Axelrod tournament, allowing easy addition of new strategies by simply adding a Python file to the `agents` folder. Each agent is a Python script that defines a `play` function, which determines the agent's move based on the history of both players.
+This project recreates the famous Axelrod tournament, allowing easy addition of new strategies by simply adding a Python file to the `agents` folder. Each agent is a Python script that defines a `play` function, which determines the agent's move based on the two contenders history.
 
 ## Features
 
@@ -61,8 +61,6 @@ This script will:
 ## Visualizing Results
 
 After running the tournament, a plot will appear displaying the scores of all participating strategies.
-
-![Tournament Results](myplot.png)
 
 ## Example Strategies
 
